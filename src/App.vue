@@ -23,6 +23,11 @@
 </template>
 
 <script>
+import vtkActor from 'vtk.js/Sources/Rendering/Core/Actor'
+import vtkConeSource from 'vtk.js/Sources/Filters/Sources/ConeSource'
+import vtkMapper from 'vtk.js/Sources/Rendering/Core/Mapper'
+import vtkOpenGLRenderWindow from 'vtk.js/Sources/Rendering/OpenGL/RenderWindow'
+
 import HelloWorld from './components/HelloWorld'
 
 export default {
